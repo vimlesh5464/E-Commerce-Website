@@ -1,0 +1,231 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+}
+
+.city a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.city input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.cart-icon {
+  position: relative;
+  font-size: 20px;
+}
+
+.item-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Section Styling */
+section {
+  padding: 20px;
+  margin: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+/* Grid Layout */
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+}
+
+.card h3 {
+  font-size: 18px;
+}
+
+/* Promo Section */
+.promo {
+  text-align: center;
+  background: #007BFF;
+  color: white;
+  padding: 20px;
+}
+
+.promo strong {
+  font-size: 20px;
+}
+
+/* Signup Section */
+.signup {
+  background: #ffeeba;
+  text-align: center;
+}
+
+/* Newsletter Section */
+.newsletter input[type="email"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Reviews Section */
+.reviews .grid {
+  display: flex;
+  gap: 20px;
+}
+
+.reviews .card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Table Section */
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-container th, .table-container td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.table-container th {
+  background: #333;
+  color: white;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Footer Styling */
+footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 8px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .social-icons a {
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+footer .newsletter form {
+  display: flex;
+}
+
+footer .newsletter input[type="email"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+footer .newsletter button {
+  border-radius: 0 5px 5px 0;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 20px;
+}
